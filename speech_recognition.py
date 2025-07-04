@@ -8,6 +8,6 @@ def transcribe_audio(audio_path):
     return result['text']
 
 # Test with a sample audio file
-audio_path = "sample_audio.wav"  # Replace with the path to your audio file
+audio_path = "1_1018.wav"  # Replace with the path to your audio file
 transcription = transcribe_audio(audio_path)
 print("Transcription:", transcription)
